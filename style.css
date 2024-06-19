@@ -4,6 +4,7 @@ body{
 
 button{
     background-color: #1d0c20;
+    width: 12rem;
     border: none;
     color: #FFF;
     padding: 15px 32px;
@@ -13,11 +14,17 @@ button{
     cursor: pointer;
 }
 
+button:hover{
+    background-color: #651F71;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
 /* Classe container*/
 .container{
     background-color: #FFEBCD;
     padding: 40px;
-    width: 450;
+    width: 140px;
+    align-items: center;
     margin: auto;
     display: flex;
     flex-direction: column;
